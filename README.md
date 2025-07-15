@@ -144,7 +144,30 @@ total_number_of_missing_values_by_collumn
 ```
 
 
+```python
+# visualizing the total number of misssing values
 
+import matplotlib.pyplot as plt
 
+# using a bar plot to visualize the missing values 
 
+total_number_of_missing_values_by_collumn.plot(kind = "bar")
+
+# to show the plot 
+
+plt.show()
+
+```
+
+- **2.Handling Missing values**:
+
+```python
+# solution 
+
+# bikes_df["ProductColor"].mode()
+
+bikes_df = bikes_df.fillna("Black")
+
+bikes_df
+```
 
