@@ -134,3 +134,17 @@ bikes_df.head()
 bikes_df.isna().any()
 ```
 
+
+```python
+# counting the number of missing values 
+
+total_number_of_missing_values_by_collumn = bikes_df.isna().sum()
+
+total_number_of_missing_values_by_collumn
+```
+
+
+
+
+
+
