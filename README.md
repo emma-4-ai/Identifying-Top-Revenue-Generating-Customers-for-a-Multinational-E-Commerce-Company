@@ -211,3 +211,6 @@ len(bikes_df)
 
 # This shows that there was NO duplicates on our dataset
 ```
+
+
+
